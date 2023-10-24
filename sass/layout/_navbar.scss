@@ -1,0 +1,49 @@
+@use "../abstracts/variables";
+@use "../abstracts/mixins";
+
+nav {
+  font-family: 'Poppins';
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.9),
+    #FDFDFF,
+    #e5effe
+  );
+
+  .container {
+    padding: 30px;
+  }
+  .nefa-icon {
+    span {
+      background-color: variables.$color-primary;
+      color: white;
+      border-radius: 6px;
+      padding: 1px 4px;
+      
+    }
+    i{
+      background: linear-gradient(
+          141.34deg,
+          variables.$color-span2purple 12.04%,
+          variables.$color-spanpurple 87.96%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        left: 20%;
+        top:35%;
+    }
+  }
+  .collapse {
+    
+    padding-left: 60px;
+    .nav-item {
+      padding: 0 25px;
+    }
+  }
+  .login-out {
+    button {
+      width: 170px;
+      height: 50px;
+    }
+  }
+}

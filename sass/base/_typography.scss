@@ -1,0 +1,11 @@
+@use '../abstracts/variables';
+
+ul li {
+    list-style-type: none;
+    line-height: 2rem;
+    margin-left: -25px;
+
+    i {
+      color: variables.$color-primary;
+    }
+  }

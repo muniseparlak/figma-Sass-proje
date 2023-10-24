@@ -1,0 +1,152 @@
+@use "../abstracts/variables";
+@use "../abstracts/mixins";
+
+/*Logo p*/
+.logo {
+  div {
+    font-family: "Poppins";
+    font-size: 1rem;
+    color: variables.$color-paragraph;
+  }
+}
+
+/* Nefa Credit card section */
+
+.cards {
+  margin-top: 100px;
+  font-family: "Poppins";
+  h3 {
+    font-weight: 700;
+    line-height: 1.5em;
+  }
+
+  span {
+    background: linear-gradient(
+      to top,
+      variables.$color-grablue,
+      variables.$color-gra2blue
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    font-size: 1rem;
+    color: variables.$color-paragraph;
+  }
+
+  button {
+    width: 200px;
+    height: 60px;
+  }
+}
+
+.tradingtools {
+  background-image: linear-gradient(
+    180deg,
+    variables.$color-logobg1 -9.25%,
+    variables.$color-logobg2 -9.25%,
+    variables.$color-logobg3 0.74%
+  );
+  border-radius: 40px;
+
+  span {
+    background: linear-gradient(
+      to top,
+      variables.$color-grablue,
+      variables.$color-gra2blue
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  p {
+    font-size: 0.8rem;
+    font-family: "Poppins";
+    color: variables.$color-paragraph;
+  }
+  button {
+    width: 170px;
+    height: 54px;
+  }
+}
+
+.security {
+  font-family: "Poppins";
+
+  p {
+    margin-left: -25px;
+    font-size: 0.8rem;
+    font-family: "Poppins";
+    color: variables.$color-paragraph;
+  }
+}
+
+.signup {
+  background-image: linear-gradient(
+    180deg,
+    variables.$color-logobg1 -9.25%,
+    variables.$color-logobg2 -9.25%,
+    variables.$color-logobg3 0.74%
+  );
+  border-radius: 40px;
+}
+
+.questions {
+  font-family: "Poppins";
+  h6 {
+    background: linear-gradient(
+      to top,
+      variables.$color-grablue,
+      variables.$color-gra2blue
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins";
+  }
+  .accordion {
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    p {
+      font-size: 0.8rem;
+      font-family: "Poppins";
+      color: variables.$color-paragraph;
+    }
+  }
+  .backbutton {
+    button {
+      width: 180px;
+      height: 60px;
+      border-radius: 15px;
+    }
+  }
+}
+
+footer {
+  div {
+    font-family: "Poppins";
+    font-size: 0.8rem;
+    line-height: 2rem;
+    color: variables.$color-paragraph;
+  }
+
+  input {
+    width: 180px !important;
+
+    &::placeholder {
+      font-size: 0.6rem;
+    }
+  }
+}

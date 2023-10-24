@@ -1,0 +1,16 @@
+@use "../abstracts/variables";
+
+.logo {
+  background-image: linear-gradient(
+    180deg,
+    variables.$color-logobg1 -9.25%,
+    variables.$color-logobg2 -9.25%,
+    variables.$color-logobg3 0.74%
+  );
+  border-radius: 40px;
+
+  .imglogo {
+    width: 200px;
+    height: 90px;
+  }
+}

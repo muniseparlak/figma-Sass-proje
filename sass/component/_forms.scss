@@ -1,0 +1,78 @@
+@use "../abstracts/variables";
+
+.forms {
+  .buy-trade {
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: "Poppins";
+  }
+
+  .buynow {
+    font-family: "Poppins";
+    font-size: 0.8rem;
+    color: variables.$color-paragraph;
+  }
+  .text {
+    width: 220px;
+    border: 1px solid;
+    border-image: linear-gradient(
+        to right,
+        variables.$color-gra3blue,
+        variables.$color-gra2blue
+      )
+      1;
+    font-family: "Poppins";
+    font-size: 0.6rem;
+    background: linear-gradient(
+      to top,
+      variables.$color-gra3blue,
+      variables.$color-gra2blue
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .line1 {
+    left: 30%;
+    top: 16%;
+    color: variables.$color-gra3blue;
+  }
+  .number1 {
+    top: 35%;
+    left: 80%;
+    font-family: "Poppins";
+    font-size: 0.8rem;
+  }
+
+  .line2 {
+    left: 30%;
+    top: 20%;
+    color: variables.$color-gra3blue;
+  }
+
+  .number2 {
+    top: 35%;
+    left: 80%;
+    font-family: "Poppins";
+    font-size: 0.8rem;
+  }
+
+  .image1,
+  .image2 {
+    top: 5%;
+    left: 5%;
+    width: 17px;
+    height: 17px;
+  }
+
+  .form-select {
+    border: 1px solid;
+    border-image: linear-gradient(
+        to right,
+        variables.$color-gra3blue,
+        variables.$color-gra2blue
+      )
+      1;
+    height: 50px;
+    font-size: 0.8rem;
+  }
+}

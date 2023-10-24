@@ -1,0 +1,402 @@
+/*Logo bg gradient*/
+/*p color*/
+nav {
+  font-family: "Poppins";
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), #FDFDFF, #e5effe);
+}
+nav .container {
+  padding: 30px;
+}
+nav .nefa-icon span {
+  background-color: #468EF9;
+  color: white;
+  border-radius: 6px;
+  padding: 1px 4px;
+}
+nav .nefa-icon i {
+  background: linear-gradient(141.34deg, #A532FF 12.04%, #E5C5FF 87.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left: 10%;
+  top: 35%;
+}
+nav .collapse {
+  padding-left: 60px;
+}
+nav .collapse .nav-item {
+  padding: 0 25px;
+}
+nav .login-out button {
+  width: 170px;
+  height: 50px;
+}
+
+header {
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(70, 142, 249, 0.3));
+}
+header .container .header-write {
+  position: relative;
+  padding-left: 70px;
+}
+header .container .header-write .fa-star {
+  font-size: 1.5rem;
+  background: linear-gradient(141.34deg, #A532FF 12.04%, #E5C5FF 87.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  left: 436px;
+}
+header .container .header-write h6 {
+  color: #468EF9;
+}
+header .container .header-write h1 {
+  font-family: "Poppins";
+  font-size: calc(2.5rem + 0.75vw);
+  font-weight: 700;
+}
+header .container .header-write span {
+  background: linear-gradient(to top, #3984F4, #0CD3FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header .container .header-write p {
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+header .container .header-write .login-out button {
+  width: 180px;
+  height: 60px;
+}
+header .container .header-write .fa-circle {
+  font-size: 1rem;
+  background: linear-gradient(141.34deg, #A532FF 12.04%, #E5C5FF 87.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  left: 26px;
+}
+
+.graphic {
+  margin-top: -40px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 10px 10px 10px 2px rgba(156, 152, 152, 0.45);
+  -webkit-box-shadow: 10px 10px 10px 2px rgba(156, 152, 152, 0.45);
+  -moz-box-shadow: 10px 10px 10px 2px rgba(156, 152, 152, 0.45);
+}
+.graphic thead {
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-weight: 300;
+  opacity: 0.5;
+}
+.graphic .more {
+  color: #468EF9;
+  font-size: 0.75rem;
+}
+.graphic td {
+  font-family: Poppins;
+}
+.graphic .img-icons {
+  height: 22px;
+  width: 22px;
+}
+
+/*Tradingtools section*/
+.tradingtools {
+  position: relative;
+}
+.tradingtools .star {
+  position: absolute;
+  top: 10%;
+}
+.tradingtools .yellow-icon {
+  position: absolute;
+  top: 30%;
+}
+.tradingtools .green-icon {
+  position: absolute;
+  top: 30%;
+  right: 3%;
+}
+.tradingtools .circle-icon {
+  position: absolute;
+  top: 70%;
+  right: 3%;
+}
+
+/*Signup-buy section*/
+.signup {
+  position: relative;
+}
+.signup .photo-ok-1 {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  width: 10vw;
+}
+.signup .photo-ok-2 {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  width: 10vw;
+}
+
+/**/
+.questions .questions-photo {
+  position: relative;
+}
+.questions .questions-photo .dogecoin {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 110px;
+  height: 110px;
+}
+.questions .questions-photo .circle-coin {
+  position: absolute;
+  top: 60%;
+  left: 65%;
+  width: 110px;
+  height: 110px;
+}
+
+/*Logo p*/
+.logo div {
+  font-family: "Poppins";
+  font-size: 1rem;
+  color: #666666;
+}
+
+/* Nefa Credit card section */
+.cards {
+  margin-top: 100px;
+  font-family: "Poppins";
+}
+.cards h3 {
+  font-weight: 700;
+  line-height: 1.5em;
+}
+.cards span {
+  background: linear-gradient(to top, #3984F4, #0CD3FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cards p {
+  font-size: 1rem;
+  color: #666666;
+}
+.cards button {
+  width: 200px;
+  height: 60px;
+}
+
+.tradingtools {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.6980392157) -9.25%, rgba(255, 255, 255, 0.6) -9.25%, rgba(244, 249, 255, 0.6980392157) 0.74%);
+  border-radius: 40px;
+}
+.tradingtools span {
+  background: linear-gradient(to top, #3984F4, #0CD3FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tradingtools p {
+  font-size: 0.8rem;
+  font-family: "Poppins";
+  color: #666666;
+}
+.tradingtools button {
+  width: 170px;
+  height: 54px;
+}
+
+.security {
+  font-family: "Poppins";
+}
+.security p {
+  margin-left: -25px;
+  font-size: 0.8rem;
+  font-family: "Poppins";
+  color: #666666;
+}
+
+.signup {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.6980392157) -9.25%, rgba(255, 255, 255, 0.6) -9.25%, rgba(244, 249, 255, 0.6980392157) 0.74%);
+  border-radius: 40px;
+}
+
+.questions {
+  font-family: "Poppins";
+}
+.questions h6 {
+  background: linear-gradient(to top, #3984F4, #0CD3FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins";
+}
+.questions .accordion {
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.questions .panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.questions .panel p {
+  font-size: 0.8rem;
+  font-family: "Poppins";
+  color: #666666;
+}
+.questions .backbutton button {
+  width: 180px;
+  height: 60px;
+  border-radius: 15px;
+}
+
+footer div {
+  font-family: "Poppins";
+  font-size: 0.8rem;
+  line-height: 2rem;
+  color: #666666;
+}
+footer input {
+  width: 180px !important;
+}
+footer input::-moz-placeholder {
+  font-size: 0.6rem;
+}
+footer input::placeholder {
+  font-size: 0.6rem;
+}
+
+.forms .buy-trade {
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: "Poppins";
+}
+.forms .buynow {
+  font-family: "Poppins";
+  font-size: 0.8rem;
+  color: #666666;
+}
+.forms .text {
+  width: 220px;
+  border: 1px solid;
+  -o-border-image: linear-gradient(to right, #2F7CF0, #0CD3FF) 1;
+     border-image: linear-gradient(to right, #2F7CF0, #0CD3FF) 1;
+  font-family: "Poppins";
+  font-size: 0.6rem;
+  background: linear-gradient(to top, #2F7CF0, #0CD3FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.forms .line1 {
+  left: 30%;
+  top: 16%;
+  color: #2F7CF0;
+}
+.forms .number1 {
+  top: 35%;
+  left: 80%;
+  font-family: "Poppins";
+  font-size: 0.8rem;
+}
+.forms .line2 {
+  left: 30%;
+  top: 20%;
+  color: #2F7CF0;
+}
+.forms .number2 {
+  top: 35%;
+  left: 80%;
+  font-family: "Poppins";
+  font-size: 0.8rem;
+}
+.forms .image1, .forms .image2 {
+  top: 5%;
+  left: 5%;
+  width: 17px;
+  height: 17px;
+}
+.forms .form-select {
+  border: 1px solid;
+  -o-border-image: linear-gradient(to right, #2F7CF0, #0CD3FF) 1;
+     border-image: linear-gradient(to right, #2F7CF0, #0CD3FF) 1;
+  height: 50px;
+  font-size: 0.8rem;
+}
+
+.logo {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.6980392157) -9.25%, rgba(255, 255, 255, 0.6) -9.25%, rgba(244, 249, 255, 0.6980392157) 0.74%);
+  border-radius: 40px;
+}
+.logo .imglogo {
+  width: 200px;
+  height: 90px;
+}
+
+ul li {
+  list-style-type: none;
+  line-height: 2rem;
+  margin-left: -25px;
+}
+ul li i {
+  color: #468EF9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Poppins;
+  font-weight: 400;
+  src: url("../assets/fonts/Poppins/poppins-regular-webfont.woff2") format("woff2"), url("../assets/fonts/Poppins/poppins-regular-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: 700;
+  src: url("../assets/fonts/Poppins/poppins-bold-webfont.woff2") format("woff2"), url("../assets/fonts/Poppins/poppins-bold-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: 300;
+  src: url("../assets/fonts/Poppins/poppins-light-webfont.woff2") format("woff2"), url("../assets/fonts/Poppins/poppins-light-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: 600;
+  src: url("../assets/fonts/Poppins/poppins-semibold-webfont.woff2") format("woff2"), url("../assets/fonts/Poppins/poppins-semibold-webfont.woff") format("woff");
+}
+.font-poppins {
+  font-family: Poppins;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-semibold {
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */

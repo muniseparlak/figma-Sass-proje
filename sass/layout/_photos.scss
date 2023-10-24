@@ -1,0 +1,63 @@
+/*Tradingtools section*/
+
+.tradingtools {
+  position: relative;
+  .star {
+    position: absolute;
+    top: 10%;
+  }
+  .yellow-icon {
+    position: absolute;
+    top: 30%;
+  }
+  .green-icon {
+    position: absolute;
+    top: 30%;
+    right: 3%;
+  }
+  .circle-icon {
+    position: absolute;
+    top: 70%;
+    right: 3%;
+  }
+}
+
+/*Signup-buy section*/
+
+.signup {
+  position: relative;
+  .photo-ok-1 {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    width: 10vw;
+  }
+  .photo-ok-2 {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    width: 10vw;
+  }
+}
+
+/**/
+.questions {
+  .questions-photo {
+    position: relative;
+    .dogecoin {
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      width: 110px;
+      height: 110px;
+    }
+
+    .circle-coin {
+      position: absolute;
+      top: 60%;
+      left: 65%;
+      width: 110px;
+      height: 110px;
+    }
+  }
+}
