@@ -301,24 +301,24 @@ footer input::placeholder {
   -webkit-text-fill-color: transparent;
 }
 .forms .line1 {
-  left: 30%;
+  left: 40%;
   top: 16%;
   color: #2F7CF0;
 }
 .forms .number1 {
   top: 35%;
-  left: 80%;
+  left: 72%;
   font-family: "Poppins";
   font-size: 0.8rem;
 }
 .forms .line2 {
-  left: 30%;
+  left: 40%;
   top: 20%;
   color: #2F7CF0;
 }
 .forms .number2 {
   top: 35%;
-  left: 80%;
+  left: 72%;
   font-family: "Poppins";
   font-size: 0.8rem;
 }
