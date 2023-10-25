@@ -1,5 +1,5 @@
 @use "../abstracts/variables";
-@use "../abstracts/mixins";
+
 
 nav {
   font-family: 'Poppins';
@@ -29,7 +29,7 @@ nav {
         );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        left: 20%;
+        left: 10%;
         top:35%;
     }
   }

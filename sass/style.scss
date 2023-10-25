@@ -1,5 +1,5 @@
 @use "abstracts/variables";
-@use "abstracts/mixins";
+
 
 @use "layout/navbar";
 @use "layout/header";
@@ -16,6 +16,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
+  
 }
 
 @font-face {
@@ -68,3 +70,4 @@
 .font-semibold {
   font-weight: 600;
 }
+

@@ -291,7 +291,6 @@ footer input::placeholder {
   color: #666666;
 }
 .forms .text {
-  width: 220px;
   border: 1px solid;
   -o-border-image: linear-gradient(to right, #2F7CF0, #0CD3FF) 1;
      border-image: linear-gradient(to right, #2F7CF0, #0CD3FF) 1;
@@ -323,7 +322,8 @@ footer input::placeholder {
   font-family: "Poppins";
   font-size: 0.8rem;
 }
-.forms .image1, .forms .image2 {
+.forms .image1,
+.forms .image2 {
   top: 5%;
   left: 5%;
   width: 17px;
