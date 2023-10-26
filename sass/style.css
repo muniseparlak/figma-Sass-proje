@@ -103,6 +103,14 @@ header .container .header-write .fa-circle {
   height: 22px;
   width: 22px;
 }
+.graphic .plus {
+  color: rgb(31, 176, 31);
+  font-weight: 600;
+}
+.graphic .minus {
+  color: red;
+  font-weight: 600;
+}
 
 /*Tradingtools section*/
 .tradingtools {
@@ -133,13 +141,13 @@ header .container .header-write .fa-circle {
 }
 .signup .photo-ok-1 {
   position: absolute;
-  top: 60%;
-  left: 30%;
+  top: 50%;
+  left: 28%;
   width: 10vw;
 }
 .signup .photo-ok-2 {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 60%;
   width: 10vw;
 }
@@ -225,6 +233,15 @@ header .container .header-write .fa-circle {
 .signup {
   background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.6980392157) -9.25%, rgba(255, 255, 255, 0.6) -9.25%, rgba(244, 249, 255, 0.6980392157) 0.74%);
   border-radius: 40px;
+}
+.signup h4 {
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.signup p {
+  font-family: "Poppins";
+  font-size: 0.8rem;
+  color: #666666;
 }
 
 .questions {

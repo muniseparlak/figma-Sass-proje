@@ -89,6 +89,15 @@
     variables.$color-logobg3 0.74%
   );
   border-radius: 40px;
+  h4{
+    font-family: 'Poppins';
+    font-weight: 600;
+  }
+  p{
+    font-family: 'Poppins';
+    font-size: 0.8rem;
+    color: variables.$color-paragraph;
+  }
 }
 
 .questions {
